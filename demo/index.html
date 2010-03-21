@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  	<script src="../jquery.defaultBlur.js" type="text/javascript"></script>
+  	<script type="text/javascript">
+		$(document).ready(function(){
+
+		  // Set the input box
+		  $("#inputText").defaultBlur({
+		    defaultText:'Click here to enter text into input',
+		    blurClass: 'defaultBlur'
+		  });
+
+		  // Set the textarea
+		  $("#textArea").defaultBlur({
+		    defaultText:'Click here to enter text into textarea',
+		    blurClass: 'defaultBlur'
+		  });
+
+		  // set funky input
+		  $("#funkyText").defaultBlur({
+		    defaultText:'Click here to enter text into input',
+		    blurClass: 'funkyBlur'
+		  });
+
+		});
+	</script>
+<meta charset=utf-8 />
+<title>jquery.defaultBlur Demo</title>
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<style>
+  * { font-family: arial, helvetica, sans-serif; }
+  article, aside, figure, footer, header, hgroup,
+  menu, nav, section { display: block; }
+  .example { margin: 20px 0px; padding: 5px 20px; border: 1px solid #333333; width: 550px;}
+  input, textarea { width: 300px; border: 1px solid #333333; font-size: 12px;}
+  code { display: block; background: #cccccc; border: 1px solid #999999; color: #666666; width: 500px; margin: 20px 20px;}
+  
+  .defaultBlur {
+    color: #cccccc;
+    font-style: italic;
+  }
+  
+  .funkyBlur {
+    color: #f00;
+    font-weight: bold;
+    font-size: 18px;
+  }
+</style>
+</head>
+<body>
+  <div class="example">
+    Input box <br/>
+    <input type="text" id="inputText" />
+    <div>
+      <code>
+        $("#inputText").defaultBlur({<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;defaultText:'Click here to enter text into input',<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;blurClass: 'defaultBlur'<br/>
+        });
+      </code>
+    </div>
+  </div>
+  
+  <div class="example">
+    Textarea<br/>
+    <textarea id="textArea" col="20" rows="3"></textarea>
+    <div>
+      <code>
+        $("#textArea").defaultBlur({<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;defaultText:'Click here to enter text into textarea',<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;blurClass: 'defaultBlur'<br/>
+        });
+      </code>
+    </div>
+  </div>
+  
+  <div class="example">
+    Input box w/ different default style <br/>
+    <input type="text" id="funkyText" />
+    <div>
+      <code>
+        $("#funkyText").defaultBlur({<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;defaultText:'Click here to enter text into input',<br/>
+        &nbsp;&nbsp;&nbsp;&nbsp;blurClass: 'funkyBlur'<br/>
+        });
+      </code>
+    </div>
+  </div>
+</body>
+</html>
