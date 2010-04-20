@@ -81,7 +81,9 @@
         var attrsToAppend = "";
         for (i = 0; i < attrs.length; i++) {
             if (attrs[i].nodeName != 'type' || attrs[i].nodeName != 'id') {
-                attrsToAppend += attrs[i].nodeName + "=" + attrs[i].nodeValue + " ";
+                if (attrs[i].nodeValue != "" && attrs[i].nodeValue != null) {
+                    attrsToAppend += attrs[i].nodeName + "=" + attrs[i].nodeValue + " ";
+                }
             }
         }
         return attrsToAppend;
