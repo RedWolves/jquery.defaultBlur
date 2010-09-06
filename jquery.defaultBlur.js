@@ -31,7 +31,7 @@
 (function($) {
     $.fn.defaultBlur = function(options) {
         var opts = $.extend({}, $.fn.defaultBlur.defaults, options);
-        var s = $(this).selector, c = $(this).context;
+        var s = this.selector, c = this.context;
 
         return this.each(function() {
             var $this = $(this);
