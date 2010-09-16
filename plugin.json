@@ -1,0 +1,28 @@
+{
+	"name": "defaultBlur",
+    "label": "jQuery Placeholder plugin",
+    "license": ["mit", "gpl"],
+    "copyright" : "2010 Ralph Whitbeck",
+    "authors"   : [
+        {
+			"name": "Ralph Whitbeck",
+            "email": "ralph.whitbeck@gmail.com",
+            "twitter": "RedWolves"
+        }
+    ],
+    "tags"      : ["forms", "placeholder"],
+    "clone"     : "http://github.com/RedWolves/jquery.defaultBlur.git",
+    "repository": "http://github.com/RedWolves/jquery.defaultBlur",
+    "homeurl"   : "http://github.com/RedWolves/jquery.defaultBlur",
+    "docs"      : "http://github.com/RedWolves/jquery.defaultBlur",
+    "examples": [
+        { "name": "Overview", "description": "Demonstration of plugin use cases.", "url": "http://jsbin.com/opita" }, 
+    ],
+    "issues"       : "http://github.com/RedWolves/jquery.defaultBlur/issues",
+    "dependencies" : {
+        "jquery/jquery": ["1.4.2"]
+    },
+    "versions": [
+        { "version": "1.1" }
+    ]
+}
