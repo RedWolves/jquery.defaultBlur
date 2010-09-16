@@ -16,7 +16,7 @@
     "homeurl"   : "http://github.com/RedWolves/jquery.defaultBlur",
     "docs"      : "http://github.com/RedWolves/jquery.defaultBlur",
     "examples": [
-        { "name": "Overview", "description": "Demonstration of plugin use cases.", "url": "http://jsbin.com/opita" }, 
+        { "name": "Overview", "description": "Demonstration of plugin use cases.", "url": "http://jsbin.com/opita" }
     ],
     "issues"       : "http://github.com/RedWolves/jquery.defaultBlur/issues",
     "dependencies" : {
